@@ -1,0 +1,59 @@
+/* 
+Pagecrate 0.1
+by Hammer&Toaster
+
+MIT License
+
+Copyright (c) 2024 Hammer&Toaster
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+/* Pagecrate Module Config */
+@import url("pagecrate/pcCore.css");       /* Basic layout */
+@import url("pagecrate/pcText.css");       /* Basic text formatting */
+@import url("pagecrate/pcText2.css");      /* Callout boxes, labels, codeblocks */
+@import url("pagecrate/pcNavigation.css"); /* Navbar, header, footer */
+@import url("pagecrate/pcControls.css");   /* Buttons, forms */
+@import url("pagecrate/pcAdwaitish.css");  /* Pagecrate default theme */
+@import url("pagecrate/pcSysfont.css");    /* System fonts */
+
+/* Pagecrate Variables */
+
+:root {
+
+  /* colors */
+  --bg-color: #FFF;
+  --main-text-color: #444;
+  --accent-color: #009AFF;  
+
+  /* Core */
+  --page-width: 750px;
+
+  /* Text */
+  --text-scale: 100%;
+  --main-font-family: var(--pcSysfont); /* Using variables from user modules */
+  --header-font-family: var(--main-font-family);
+  --header-font-weight: 700;
+
+}
+
+/* Customizations */
+@import url("pcCustom.css");
+
